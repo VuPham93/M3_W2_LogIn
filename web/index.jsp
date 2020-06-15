@@ -20,7 +20,7 @@
   }
 </style>
 <body>
-<form method="post" action="/M3_W2_LogIn_war_exploded/login">
+<form method="post" action="${pageContext.request.contextPath}/login">
   <div class="login">
     <h2>Login</h2>
     <input type="text" name="username" size="30"  placeholder="username" />
